@@ -1,0 +1,31 @@
+#image {
+  max-width: 50%;
+  width: 25vw;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background-color: #e8e8e8;
+  font-family: sans-serif;
+}
+
+#img-div {
+  background-color: white;
+  padding-top: 15px;
+  margin: 50px;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 5px;
+}
+
+#title {
+  text-align: center;
+}

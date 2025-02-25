@@ -1,0 +1,183 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div class="option">
+        <a href="#welcome-section">About</a>
+      </div>
+
+      <div class="option">
+        <a href="#projects">Work</a>
+      </div>
+
+      <div class="option">
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section id="welcome-section">
+      <h1>Hey I'm Nicholas!</h1>
+    </section>
+
+    <section id="projects">
+      <div class="heading"><header>Here's some of my projects</header></div>
+      
+      <div class="project-tile-links">
+        <a href="file:///C:/Users/~User~/Downloads/projectflaskmvc/survey.html">
+          <div class="project-tile survey-form">
+            <img src="https://img.freepik.com/free-photo/3d-illustration-pen-putting-blue-ticks-paper_107791-15675.jpg?ga=GA1.1.1558238484.1711729298&semt=ais_hybrid"></img>
+          </div>
+        </a>
+
+        <a href="C:\Users\~User~\Downloads\projectflaskmvc\tribute-page.html">
+          <div class="project-tile tribute-page">
+            <img src="https://images.nightcafe.studio/jobs/BsGDfkL45rkwVwpz7i50/BsGDfkL45rkwVwpz7i50--1--3lq51.jpg?tr=w-1600,c-at_max"></img>
+          </div>
+        </a>
+
+        <a href="C:\Users\~User~\Downloads\technical-documentation-page.html">
+          <div class="project-tile technical-documentation">
+            <img src="https://media.istockphoto.com/id/1143672593/vector/online-testing-and-assessment-quality-monitoring.jpg?s=1024x1024&w=is&k=20&c=eB-4xMs6t9G_OSC12ToghwmIIduLHmI3gPkPXWavIvI="></img>
+          </div>
+        </a>
+
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form">
+          <div class="project-tile survey-form">
+            <img src="https://media.istockphoto.com/id/1143672593/vector/online-testing-and-assessment-quality-monitoring.jpg?s=1024x1024&w=is&k=20&c=eB-4xMs6t9G_OSC12ToghwmIIduLHmI3gPkPXWavIvI="></img>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <a href="https://github.com/nickperi/projectflaskmvc/tree/main" id="profile-link" target="_blank">
+      <div class="github">
+        <img src="C:\Users\~User~\Downloads\GitHub-logo.png" alt="github icon"></img>
+      </div>
+      </a>
+
+      <a href="www.linkedin.com/in/nicholas-pariag-65b96315b" target="_blank">
+        <div class="linkedin">
+          <img src="C:\Users\~User~\Downloads\174857.png" alt="linkedin icon"></img>
+        </div>
+      </a>
+    </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  text-align: center;
+  margin: 0 0 0 0;
+  overflow-x: hidden;
+}
+
+#navbar {
+  width: 100vw;
+  height: 30px;
+  background-color: rgb(3,47,60);
+  padding-left: 60px;
+  padding-right: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  gap: 25px;
+  position: fixed;
+}
+
+#navbar a {
+  color: rgb(16,137,141);
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.option {
+  width: auto;
+  height: auto;
+}
+
+.option:hover {
+  background-color: rgb(4,97,105);
+}
+
+#welcome-section {
+  width: 100vw;
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  padding: 110px;
+  background-color: rgb(199, 0, 57);
+  color: white;
+}
+
+#projects {
+  background-color: rgb(93, 173, 226);
+  padding: 100px;
+  width: 100vw;
+  max-height: 1000px;
+}
+
+#projects .project-tile-links, .contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#projects .heading {
+  color: white;
+  font-family: sans-serif;
+  display: block;
+  padding-bottom: 50px;
+  position: static;
+}
+
+.project-tile {
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+.project-tile, .github, .linkedin {
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    width: 100%;
+  }
+
+  #welcome-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #projects {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+
+** end of undefined **
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="styles.css"></link>
+  </head>
+  <body>
+    <nav id="navbar"><header>Java Design Pattern Examples</header>
+    <ul>
+      <li><a class="nav-link" href="#Design_Patterns">Design Patterns</a></li>
+      <li><a class="nav-link" href="#Creational_Design_Patterns">Creational Design Patterns</a></li>
+      <li><a class="nav-link" href="#Factory_Design_Pattern">Factory Design Pattern</a></li>
+      <li><a class="nav-link" href="#Structural_Design_Patterns">Structural Design Patterns</a></li>
+      <li><a class="nav-link" href="#Composite_Design_Pattern">Composite Design Pattern</a></li>
+      <li><a class="nav-link" href="#Behavioral_Design_Patterns">Behavioral Design Patterns</a></li>
+      <li><a class="nav-link" href="#Command_Design_Pattern">Command Design Pattern</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Design_Patterns">
+      <header>Design Patterns</header>
+      <p>Design patterns provide solutions to common software problems. Multiple design patterns can be used to create one complex application.
+      <p>
+
+      <p>Design patterns fall under different categories which are:</p>
+
+      <ul>
+        <li>Creational</li>
+        <li>Structural</li>
+        <li>Behavioral</li>
+      </ul>
+
+    </section>
+
+    <section class="main-section" id="Creational_Design_Patterns">
+      <header>Creational Design Patterns</header>
+      <p>Creational patterns involve the efficent creation of objects with code reusability.</p>
+
+      </p>Common creational design patterns include:</p>
+      <ul>
+        <li>Factory</li>
+        <li>Builder</li>
+        <li>Singleton</li>
+      </ul>
+    </section>
+
+  <section class="main-section" id="Factory_Design_Pattern">
+    <header>Factory Design Pattern</header>
+    <p>This creational design pattern provides an interface to create objects, while allowing the object type to be changed: An example with the creation of products A and B is shown below:</p>
+      <code>ProductFactory productAFactory = new ProductAFactory();</code>
+
+      <code>Product productA = productAFactory.createProduct();</code>
+  </section>
+    
+
+    <section class="main-section" id="Structural_Design_Patterns">
+      <header>Structural Design Patterns</header>
+      <p>Structural design patterns allow for the arrangement of objects structures to become flexible</p>
+
+      <p>Some common structural patterns are:</p>
+      <ul>
+        <li>Composite</li>
+        <li>Adapter</li>
+        <li>Bridge</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Composite_Design_Pattern">
+    <header>Composite Design Pattern</header>
+    <p>This structural design pattern allows for objects to be arranged in a tree-like structure and treat it as a unit. One example of this is a directory structure.</p>
+
+     <code>Folder folder = new Folder() //AbstractFile files[] = new ConcreteFile[5];</code>
+     <code>folder.add(new ConcreteFile());</code>
+     <code>folder.execute() //for(File file: files){file.execute();}</code>
+     </section>
+
+    <section class="main-section" id="Behavioral_Design_Patterns">
+      <header>Behavioral design Patterns</header>
+      <p>Behavioral design patterns involve assigning responsibilities to objects.</p>
+
+     <p>Examples of bahvioral patterns include:</p>
+    <ul>
+      <li>Command</li>
+      <li>Observer</li>
+      <li>Template</li>
+    <ul>
+    </section>
+
+    <section class="main-section" id="Command_Design_Pattern">
+      <header>Command Design Pattern</header>
+      <p>This behavioral pattern involves an invoker object sending requests to a receiver object to be processed. An example is the use of a switch to turn a light on and off:</p>
+
+      <code>Light light = new Light();</code>
+      <code>Command onCommand = new OnCommand(light);</code>
+      <code>Switch switch = new Switch(onCommand);<code>
+        <code>switch.execute()</code>
+    </section>
+
+  </main><body>
+</html>

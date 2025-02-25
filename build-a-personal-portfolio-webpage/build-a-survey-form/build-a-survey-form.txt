@@ -1,0 +1,119 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Academic Advising Survey</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css"></link>
+   </head>
+
+   <body><h1 id="title">UWI Academic Advising</h1></body>
+
+   <p id="description">Hey there! I am studying the efficiency of academic advising. Please answer the following questions. Thank you for your time!</p>
+
+   <form id="survey-form" method="post" action=""> 
+      <fieldset><label id="name-label">Please enter your name <input id="name" type="text" required placeholder="John Doe"></label>
+
+      <label id="email-label">Please enter your email<input id="email" type="email" required placeholder="name@example.com"></label>
+
+      <label id="number-label">Please enter your year of study <input id="number" type="number" min="1" max="10" placeholder="1"></label></fieldset>
+
+     <fieldset> <select id="dropdown"> 
+         <option value="">Select your major</option>
+          <option value="CS">Computer Science</option>
+           <option value="IT">Information Technology</option>
+
+            <option value="CSS">Computer Science (Special)</option>
+
+            <option value="ITS">Information Technology (Special)</option>
+
+            <option value="CSM">Computer Science and Management(Special)</option>
+
+            <option value="ITM">Information Technology and Management (Special)</option>
+      </select></fieldset>
+
+      <fieldset><legend>How would you describe academic advising?
+         <label><input type="radio" name="experience" value="helpful">Helpful </label>
+
+         <label><input type="radio" name="experience" value="useful">Useful </label>
+         <label><input type="radio" name="experience" value="unnecessary">Unnecessary </label>
+     </legend></fieldset>
+
+     <fieldset><legend>Which of the features are relevant to your academic advising experience? Tick all that apply
+        <label><input type="checkbox" value="career"> Gives career advice</label>
+
+        <label><input type="checkbox" value="electives"> Recommends electives for specializations</label>
+
+        <label><input type="checkbox" value="focus"> Advises students do or avoid courses based on their strengths</label>
+
+        <label><input type="checkbox" value="general"> Gives general advice</label>
+
+        <label><input type="checkbox" value="contact"> Provides contact information for further discussion</label>
+     </legend> </fieldset>
+
+     <fieldset><label>What recommendations would you give to improve academic advising?<textarea></textarea></label></fieldset>
+
+     <input id="submit" type="submit">
+   </form>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  color: white;
+  background-color: #17153B;
+  font-family: Tahoma;
+  width: 100%;
+  height: 100vh;
+}
+
+form {
+  margin: auto;
+}
+
+#title {
+  font-size: 32;
+  text-align: center;
+}
+
+#description {
+  font-size: 18;
+}
+
+form {
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 16;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+  width: 100%;
+  margin-bottom: 5px;
+  min-height: 2em;
+}
+
+select{
+  width: 100%;
+  min-height: 2em;
+}
+
+label {
+  display: block;
+}
+
+#name, #email, #number, textarea {
+  display: block;
+}
+
+fieldset{
+  border: none;
+  padding-bottom: 2em;
+}
+
+
+** end of undefined **
+

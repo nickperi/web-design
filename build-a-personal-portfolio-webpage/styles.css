@@ -1,0 +1,138 @@
+body {
+  text-align: center;
+  margin: 0 0 0 0;
+  overflow-x: hidden;
+}
+
+#navbar {
+  width: 100vw;
+  height: 25px;
+  background-color: rgb(3,47,60);
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  gap: 25px;
+  position: fixed;
+}
+
+#navbar a {
+  color: rgb(16,137,141);
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.option {
+  width: auto;
+}
+
+.option:hover {
+  background-color: rgb(4,97,105);
+}
+
+#welcome-section {
+  width: 100vw;
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  padding-top: 100px;
+  background-color: #355F2E;
+  color: white;
+}
+
+#projects {
+  background-color: rgb(93, 173, 226);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100vw;
+  height: auto;
+}
+
+#projects .project-tile-links, #contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+#projects .heading {
+  color: white;
+  font-family: sans-serif;
+  display: block;
+  padding-bottom: 50px;
+  position: static;
+}
+
+.project-tile {
+  width: 250px;
+  height: 300px;
+  cursor: pointer;
+  background-color: darkolivegreen;
+}
+
+.project-tile:hover {
+  padding: 0;
+  width: 260px;
+  height: 310px;
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.project-tile, .github, .linkedin {
+  object-fit: cover;
+}
+
+#contact {
+  width: 100vw;
+  height: 200px;
+  background-color: #A1EEBD;
+}
+
+#contact a {
+  max-width: 128px;
+  max-height: 128px;
+}
+
+#contact a:hover {
+  transform: translateY(8px);
+}
+
+#contact .linkedin {
+  border-radius: 10px;
+}
+
+#contact .github img {
+  aspect-ratio: 16/9;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  #welcome-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #projects {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #contacts {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
