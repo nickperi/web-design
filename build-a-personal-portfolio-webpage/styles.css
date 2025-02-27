@@ -1,5 +1,4 @@
 body {
-  text-align: center;
   margin: 0 0 0 0;
   overflow-x: hidden;
 }
@@ -43,6 +42,14 @@ body {
   color: white;
 }
 
+#welcome-section h1 {
+  text-align: center;
+}
+
+#welcome-section p {
+  font-size: 18px;
+}
+
 #projects {
   background-color: rgb(93, 173, 226);
   padding-top: 50px;
@@ -71,7 +78,8 @@ body {
 
 .project-tile {
   width: 250px;
-  height: 300px;
+  height: auto;
+  text-align: center;
   cursor: pointer;
   background-color: darkolivegreen;
 }
@@ -79,12 +87,20 @@ body {
 .project-tile:hover {
   padding: 0;
   width: 260px;
-  height: 310px;
+  height: calc(auto + 10);
 }
 
 img {
   width: 100%;
   aspect-ratio: 1/1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightcyan;
 }
 
 .project-tile, .github, .linkedin {
