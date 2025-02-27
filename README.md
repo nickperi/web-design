@@ -1,5 +1,5 @@
-Steps to view portfolio:
-  1. Click on Code and under this click on "Download Zip"
+## Steps to view portfolio:
+  1. Click "Download ZIP" under the green "Code" button
   ![image](https://github.com/user-attachments/assets/e747929a-4742-42c3-8d9a-ff5477735dfa)
 
   2. Extract Zip file
