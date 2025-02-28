@@ -97,10 +97,11 @@ img {
 
 a {
   text-decoration: none;
+  color: lightcyan;
 }
 
 a:visited {
-  color: lightcyan;
+  color: cyan;
 }
 
 .project-tile, .github, .linkedin {
