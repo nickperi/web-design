@@ -48,6 +48,8 @@ body {
 
 #welcome-section p {
   font-size: 18px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 #projects {
@@ -85,9 +87,7 @@ body {
 }
 
 .project-tile:hover {
-  padding: 0;
-  width: 260px;
-  height: calc(auto + 10);
+  transform: scale(1.2);
 }
 
 img {
